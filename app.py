@@ -43,7 +43,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("<h1 class='main-title'>🎉 İyi ki Doğdun Sevgilim</h1>", unsafe_allow_html=True)
-st.markdown("<p class='sub-text'>Bugün mutfak tamamen senin emrinde! Gün boyunca ne yemek ve içmek istersen seç, şefin hazırlasın.</p>", unsafe_allow_html=True)
+st.markdown("<p class='sub-text'>Perşembe günü mutfak tamamen senin emrinde! Gün boyunca ne yemek ve içmek istersen seç, şefin hazırlasın.</p>", unsafe_allow_html=True)
 
 # Kahvaltı Bölümü
 with st.container():
@@ -64,7 +64,7 @@ st.write("---")
 # Özel İstek Bölümü
 with st.container():
     st.subheader("✨ Şefe Özel İstek")
-    ozel_not = st.text_area("Tatlı veya gün içine özel bir rica?", placeholder="Örn: Akşam film izlerken sufle de olsun!")
+    ozel_not = st.text_area("Tatlı veya gün içine özel bir rica?", placeholder="Örn: akşam çiğ köfte de yiyelimmm!")
 
 st.write("")
 
